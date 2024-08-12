@@ -1,0 +1,36 @@
+[font]
+normal = { family = "CaskaydiaCove Nerd Font Mono", style = "Regular"}
+bold = { family = "CaskaydiaCove Nerd Font Mono", style = "Bold"}
+italic = { family = "CaskaydiaCove Nerd Font Mono", style = "Italic"}
+size = 14.0
+
+# Offset is the extra space around each character. offset.y can be thought of as modifying the linespacing, and offset.x as modifying the letter spacing.
+[font.offset]
+x = 0
+y = 0
+
+# Glyph offset determines the locations of the glyphs within their cells with the default being at the bottom.
+[font.glyph_offset]
+x = 0
+y = 0
+
+# Map Option (Alt) + h/j/k/l to navigate tmux panes
+[[keyboard.bindings]]
+key = "H"
+mods = "Alt"
+chars = "\u001bh"
+
+[[keyboard.bindings]]
+key = "J"
+mods = "Alt"
+chars = "\u001bj"
+
+[[keyboard.bindings]]
+key = "K"
+mods = "Alt"
+chars = "\u001bk"
+
+[[keyboard.bindings]]
+key = "L"
+mods = "Alt"
+chars = "\u001bl"
