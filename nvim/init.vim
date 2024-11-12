@@ -42,7 +42,8 @@ call plug#begin()
 	" Markdowns support and preview
   Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
   Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
-	
+  Plug 'mistricky/codesnap.nvim', { 'do': 'make' }
+
 call plug#end()
 
 " }}}
